@@ -140,7 +140,7 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: var(--activ-text-color);
-  margin-top: 22px;
+  bottom: 0;
 }
 
 .adress-list {
@@ -691,9 +691,9 @@ img {
 
 .modal {
   position: absolute;
-  top: 88px;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 0) scale(1);
+  transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 576px;
   background: #fcfcfc;
